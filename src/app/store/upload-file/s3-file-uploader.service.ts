@@ -17,8 +17,8 @@ export class S3FileUploaderService {
     return new Observable((observer) => {
       const bucket = new S3(
         {
-          accessKeyId: 'AKIAIAUIHGTA6WCEJ75A',
-          secretAccessKey: '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',
+          accessKeyId: '',
+          secretAccessKey: '',
           region: this.US_OHIO_REGION_ID
         }
       );
